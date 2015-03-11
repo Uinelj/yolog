@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(gothic.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Junction';
+  font-style: normal;
+  font-weight: 400;
+  src: url(junction-regular.woff) format('woff');
+}
+
+/*
+ * General
+ */
+h1, h2, h3{
+	font-family: 'Gothic', sans-serif;
+}
+
+html{
+	background-color: #252525;
+	color: #dddddd;
+	font-family: sans-serif;
+	line-height: 1.2;
+}
+
+body{
+	max-width: 15cm;
+	margin: 0 auto;
+	font-family: 'Junction', sans-serif;
+}
+
+/*
+ * Header
+ */
+
+body>header>h1{
+	font-size: 4rem;
+	color: #03A4BB;
+	text-align: center;
+}
+
+/*
+ * Form
+ */
+
+form{
+	text-align: left;
+}
+
+form>header{
+	padding: .5rem;
+	background-color: #111111;
+}
+
+form>header>input{
+	width: 100%;
+	margin: 0;
+	background-color: #111111;
+	color: #FF7A00;
+	font-size: 1.5rem;
+	font-family: 'Gothic', sans-serif;
+	border: 0;
+}
+
+form>textarea{
+	background-color: #252525;
+	color: #dddddd;
+	padding: 1rem .5rem;
+	font-size: 1rem;
+	font-family: 'Junction', sans-serif;
+	width: calc(100% - 1rem);
+	height: 5em;
+	border-radius: 0 0 .3rem .3rem;
+	border: 0;
+}
+
+form>button{
+	background-color: #111111;
+	padding: .5rem;
+	border: 0;
+	margin: 0;
+	color: #03A4BB;
+	font-family: 'Gothic', sans-serif;
+	font-size: 1.5rem;
+	letter-spacing: .1rem;
+	width: 100%;
+	text-align: right;
+}
+
+/*
+ * Section
+ */
+section>header{
+	text-align: left;
+	color: #FF7A00;
+	background-color: #111111;
+	padding: 0;
+	margin: 1rem 0;
+}
+
+section>header>h1, section>header>h2{
+	display: inline-block;
+	padding: .5rem;
+	margin: 0;
+}
+
+section>header>h2{
+	font-size: 1.5em;
+	color: #FFAE00;
+	float: right;
+}
+
+section>main{
+	padding: 0 .5rem;
+}
